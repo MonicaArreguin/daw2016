@@ -1,0 +1,8 @@
+<h1>New Question</h1>
+<%= render 'form' %>
+<%= link_to 'Back', questions_path, class: "fa fa-reply fa-2x" %>
+<% content_for(:title) do %>
+    New Question
+
+<% end %>
+
